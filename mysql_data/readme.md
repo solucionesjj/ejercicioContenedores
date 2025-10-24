@@ -1,1 +1,0 @@
-Carpeta para manejar la persistencia del contenedor mysql
