@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+/* Estilos globales personalizados */
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.task-card {
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.task-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.badge-status {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.status-todo {
+  background-color: #007bff;
+}
+
+.status-doing {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.status-done {
+  background-color: #28a745;
+}
+
+.btn-delete {
+  background-color: transparent;
+  border: none;
+  color: #dc3545;
+  padding: 0.25rem;
+  border-radius: 4px;
+}
+
+.btn-delete:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.pagination .page-link {
+  border-radius: 4px;
+  margin: 0 2px;
+}
+
+.filter-pills .btn {
+  border-radius: 20px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
